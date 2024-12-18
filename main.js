@@ -108,7 +108,7 @@ if(localStorage.getItem('mode')=='dark'){
    darkmode();
 }
 else{
-    lightmode();
+    darkmode();
 }
 
 themebtn.addEventListener('click',(e) =>{
@@ -116,7 +116,7 @@ themebtn.addEventListener('click',(e) =>{
         darkmode();
     }
     else{
-        lightmode();
+        darkmode();
     }
 
 
